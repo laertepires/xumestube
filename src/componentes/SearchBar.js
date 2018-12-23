@@ -6,9 +6,8 @@ import { connect } from 'react-redux'
 import {buscaVideo} from '../store/actions/busca-video'
 
 
-//const Searchbar = props => {
+//const Searchbar = props => { 
 class Searchbar extends Component {
-
     pesquisatermo = e =>{
         const termo = e.target.value;
         if(e.keyCode === 13){
