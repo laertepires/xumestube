@@ -11,7 +11,6 @@ class VideoList extends Component{
                 <List.Item onClick={() => this.props.reproduz(video)}> 
                     <Image src={video.snippet.thumbnails.default.url}/>
                     <List.Content>
-                        <List.Header>{video.snippet.title}</List.Header>
                         <List.Header>{video.snippet.title}</List.Header>    
                     </List.Content> 
                 </List.Item>
